@@ -5,13 +5,15 @@ The goal is to predict if a person has any of three medical conditions. You are 
 
 ### Test set
 For each id in the test set, you must predict a probability for each of the two classes. The file should contain a header and have the following format:
-Id,class_0,class_1
+
+```Id,class_0,class_1
 00eed32682bb,0.5,0.5
 010ebe33f668,0.5,0.5
 02fa521e1838,0.5,0.5
 040e15f562a2,0.5,0.5
 046e85c7cc7f,0.5,0.5
 ...
+```
 
 ### Data
 #### train.csv - The training set.
